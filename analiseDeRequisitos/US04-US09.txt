@@ -1,0 +1,19 @@
+US 04
+
+ja existe cadastro previo de reunião 
+já existe membro
+ja existe cadastro de comissao
+
+nome - (decricao) | tipo da reuniao (ordinaria ou extra) | comissao (conselho, comissao de curso, nde, local de ensino...) | data e hora da reunião
+
+moderador abrir a reuniao
+
+membro pode registar
+
+US 09
+
+membro poder registrar
+
+nome do membro
+
+reuniões que ele pode particpar

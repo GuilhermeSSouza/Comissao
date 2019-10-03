@@ -1,0 +1,86 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+	background: #f6f6f6;
+}
+#areaLogin{
+	display: block;
+	margin-top: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f6f6f6;
+}
+
+#painelReunioes{
+	display: block;
+}
+
+.listaReunioes{
+	display: block;
+	margin: 1em;
+	border: solid 1px rgb(150,150,150);
+}
+
+.linhaReuniao{
+	display: block;
+}
+
+.linhaReuniao div {
+	display: inline-block;
+}
+
+.card-header{
+	background: #009045;
+}
+
+.card-header > p{
+	color: #ffffff;
+}
+
+h4{
+	color: #ffffff;
+}
+
+
+.page-item.active .page-link{
+	background-color: #009045;
+	border-color: #009045;
+}
+
+.btn-success{
+	background-color: #009045;
+	border-color: #009045;
+}
+
+.card > .table-responsive{
+	padding: 0.5em;
+}
+
+#logo{
+	margin-right: 1em;
+}
+
+.bg-light {
+	background-color: #f6f6f6 !important;
+}
+
+#votoCustom{
+	padding: 1em;
+	display:none;
+	text-align:center;
+}
+
+#votoNormal{
+	padding: 1em;
+}

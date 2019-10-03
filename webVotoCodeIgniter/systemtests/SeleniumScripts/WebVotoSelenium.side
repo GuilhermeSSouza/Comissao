@@ -1,0 +1,3030 @@
+{
+  "id": "bcbde83e-0692-49bf-981f-60ead12ac284",
+  "version": "1.1",
+  "name": "WebVotoSelenium",
+  "url": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+  "tests": [{
+    "id": "ed3c4ae4-dd83-4189-9ced-c7f71ec4c46f",
+    "name": "BuscaReuniao",
+    "commands": [{
+      "id": "511dacf5-d596-4a9a-b29b-716d33485d08",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00d49693-3fd3-44d8-bf41-d182f0c684f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fdf93a8-923c-4aac-9238-d05083572124",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "f3c48b3f-4b5a-411d-b5b4-b91089e44854",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "ce5da94f-58fa-4808-9087-71a25867583e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62b39c49-888e-4bf4-ad07-f37a81a6e411",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7e4efd4-11d8-477a-97f9-62c29492135a",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Reunião Mensal do Curso"
+    }, {
+      "id": "348b78c9-58d6-4908-a908-11f144b201ce",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "97c5b82e-66dd-4d70-b052-14395f06bd7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.fas.fa-external-link-alt",
+      "targets": [
+        ["css=i.fas.fa-external-link-alt", "css"],
+        ["css=.fa-external-link-alt", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "99a38085-394b-46af-add6-fa2b8a998677",
+    "name": "LoginTest",
+    "commands": [{
+      "id": "33a3132e-4c37-4333-bcc9-4c4b9fca6f46",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19992bac-fd70-48d3-8f46-0d9bb0b6177d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dd543fe-988b-4700-940a-c6be0ef7aefe",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b080736a-05fe-4283-bb5e-ad951104d47e",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "ed05f816-e697-463b-aa0a-65360cf7f0e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c98ed1f9-4c09-43e9-ad94-f952ee630abb",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "c0d52689-e2fd-4d3e-a218-48cbb8831fdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "02f36d84-b29d-4e59-bf28-f41dde86af99",
+    "name": "BuscaReuniaoPorData",
+    "commands": [{
+      "id": "63265a89-cd10-4f49-a683-4c9f8aaf2453",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace781e1-055e-4093-bc7a-ad08f5ab7d5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23ed1bd1-31c3-4135-9250-add7274d6ae0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "6feee78f-d125-4fdc-8346-684b46a6d133",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "959f2ca8-8102-4790-ba53-701172a4b3a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89627cf9-193a-4f01-b12c-9eb98fd3a265",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador > thead > tr > th.sorting",
+      "targets": [
+        ["css=#tabelaModerador > thead > tr > th.sorting", "css"],
+        ["css=#tabelaModerador .sorting:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/thead/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/thead/tr/th[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6827d364-0226-49cb-b632-b403c7b1ef82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moderar",
+      "targets": [
+        ["linkText=Moderar", "linkText"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/6']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cbd2886f-6e41-4be7-9a04-3ceb215c058b",
+    "name": "LoginLogout",
+    "commands": [{
+      "id": "3cd34638-c5d2-4fda-bfea-1c1ec67c160d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "551535db-0e9c-4686-8711-f7be2c23e700",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc6d2379-550e-491d-a337-f25cba9b0d33",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9270ed1d-254e-462b-b32b-0622d895b4fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "fdeba506-c62e-49dc-9c84-cf73e558be03",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d65eddf4-b90f-4ca3-ad77-5d8aee9e9845",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8d2b42fc-13e8-42eb-8bf1-78eecf7df26d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "429cb745-642b-496f-bf3f-000a34911ebc",
+    "name": "MembroEntraReuniao",
+    "commands": [{
+      "id": "f8f94eef-51cf-495b-af46-513bccce8b24",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "660bc978-ff64-4f28-b475-6e571cc985d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce2ab990-d872-4d42-9bcd-911967c10e89",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee9bfe1b-f60e-4754-8193-9052b1f585b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "dc426f09-bab6-47c8-9630-56d70b784ef6",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d4b9cfa9-4aed-45c7-96bd-a439c13376b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b7b162e-3e2e-4256-8e44-cdf87cf18f39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar",
+      "targets": [
+        ["linkText=Entrar", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaMembro .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaMembro']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/entrar/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07c84cb6-3632-4f0d-bf19-ae697e55b76f",
+    "name": "LoginFalse",
+    "commands": [{
+      "id": "f0f75b84-3170-46e1-81a3-35147e80ee2e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03153c9d-c3a7-4dd4-bfca-e6c02023110c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0d038ce-1e51-4447-8658-55786cef9c0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81547b7c-a2db-43b4-a62c-91ed4efac796",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "b3a74b6e-284d-43a4-9834-d19f1ad352eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d404aa-a7ee-41ec-a50b-27eac047bfce",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b41d59c3-e0c7-41f2-a0b1-384cc39a5de4",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a75ceaeb-c1ee-4834-a239-4da588fc80fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "05ad99ef-a343-49ea-a65e-f769c4159986",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "654321"
+    }, {
+      "id": "4db410ba-6651-450e-a970-21440163d75e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5eb377b-5333-4b88-96ff-077d5d5e4885",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "289257f5-3f42-4c66-826b-23da1663300e",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe@gmail.com"
+    }, {
+      "id": "dea091a1-c452-4229-a9a3-52fd446f5a83",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "69100feb-6eb8-497f-ac44-31240c899c4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19b64adc-0e45-4180-a30a-75dd5e090e86",
+    "name": "ModerarReuniao",
+    "commands": [{
+      "id": "59257f30-b9c0-45aa-975a-368431de9a4b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c14ef6f-0abf-4700-bc6e-cf551a0bd879",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1014x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abc31c08-b98d-49d3-b1ab-264f5a52e1d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c845a13f-2cc8-488c-9294-d551fdfea4d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "f18c6ac6-d217-4b15-b2c4-0f7573de29e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "7dce980f-4d30-43f9-9631-a0320db47d14",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8a371808-7000-4e25-9bda-e2d95373ba63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moderar",
+      "targets": [
+        ["linkText=Moderar", "linkText"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cdae0c5-0a2c-4e27-b27e-e9444f7a7dec",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [
+        ["name=tabelaItensPauta_length", "name"],
+        ["css=select[name=\"tabelaItensPauta_length\"]", "css"],
+        ["css=.custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaItensPauta_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_length']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdccea92-15a9-4c47-a776-3db7ab6b0367",
+      "comment": "",
+      "command": "select",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [],
+      "value": "label=100"
+    }, {
+      "id": "4e7bb226-7fb2-46e9-a008-88a93e35c4e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [
+        ["name=tabelaItensPauta_length", "name"],
+        ["css=select[name=\"tabelaItensPauta_length\"]", "css"],
+        ["css=.custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaItensPauta_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_length']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39085299-cc2f-4944-9c5f-578c4b0d1f44",
+    "name": "MembroSaiReuniao",
+    "commands": [{
+      "id": "5a3fc9e3-3bda-48e5-b67a-b4f95d6d2789",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3402ee7d-cf88-4d5b-9678-1a0d0fe80dc3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52930012-6749-4b4f-83d2-f320237c3ad5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c9877b-9f75-4e48-9915-12433ba7d4a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e3f81c4-6f79-49b7-bca9-d6b7fafc5cb8",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "68c3607e-fc03-4095-b5b2-dc0d4d81ec72",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "29b788fc-31b5-4ea1-ad7f-fae2e34bfc6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "829c9108-d825-4fb5-b736-d5087cfc40f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar",
+      "targets": [
+        ["linkText=Entrar", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaMembro .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaMembro']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/entrar/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e64125d-f406-447d-9cf8-bb226e5a2ac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .fas",
+      "targets": [
+        ["css=.btn > .fas", "css:finder"],
+        ["xpath=//div[@id='reuniao']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b7805822-559d-40c4-bdfd-8b5be6f19c50",
+    "name": "SecretarioGerencia",
+    "commands": [{
+      "id": "a55dd5d1-5b08-4f07-85b5-1f4c70542555",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41833049-f89c-4c3c-89c9-e7b0062a6c43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3250d02-4319-47a4-af6c-5e8e9efbdca6",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "a8075dc6-93db-4da9-916f-39270167e9cc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": "58,3"
+    }, {
+      "id": "3021ae2c-7078-4180-827f-060a9c72e287",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": "58,3"
+    }, {
+      "id": "65df041f-050e-4f43-b00a-f0f43c6856f6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": "58,3"
+    }, {
+      "id": "e6158750-fb18-487f-b786-1bab8d5a7719",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d20953-03c9-47b3-a5b8-84534a8bc06d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gerenciar",
+      "targets": [
+        ["linkText=Gerenciar", "linkText"],
+        ["css=#tabelaSecretario .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/gerenciar/2']", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/tbody/tr/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d794906f-9515-4e0e-9997-f8ed817fe777",
+    "name": "OrdenacaoTest",
+    "commands": [{
+      "id": "a94b186e-d013-4c8e-a3e8-01760f1d1b03",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6f16a16-bf1c-4caf-b22b-f40b918f9052",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x641",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e02e128d-b346-4813-a13b-1f17df6df14d",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd00840a-ec22-49b0-91c6-81898ef9fc27",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "1777fe6c-dfde-4cb8-8be0-3e283dd639c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "4c19b0e2-06a8-4bbf-9531-24e6ded7ec88",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b5cec2e-afea-4af8-9a1e-ceca421478e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario > thead > tr > th.sorting_asc",
+      "targets": [
+        ["css=#tabelaSecretario > thead > tr > th.sorting_asc", "css"],
+        ["css=#tabelaSecretario .sorting_asc", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ddc064f-03a8-494f-a7b9-3f57ccee35fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario > thead > tr > th.sorting",
+      "targets": [
+        ["css=#tabelaSecretario > thead > tr > th.sorting", "css"],
+        ["css=#tabelaSecretario .sorting:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4bfced5-56dd-41fc-9f3e-2ddb39531050",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario .sorting:nth-child(3)",
+      "targets": [
+        ["css=#tabelaSecretario .sorting:nth-child(3)", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d875545-e2d2-45c1-ae1b-a6d82201da30",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario .sorting:nth-child(4)",
+      "targets": [
+        ["css=#tabelaSecretario .sorting:nth-child(4)", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdc5268-fc19-4b0c-a0bf-aed660827f6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario .sorting:nth-child(5)",
+      "targets": [
+        ["css=#tabelaSecretario .sorting:nth-child(5)", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th[5]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ae7083b-4c8b-4ea2-99b8-dd6b11448a6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario > thead > tr > th.sorting_disabled",
+      "targets": [
+        ["css=#tabelaSecretario > thead > tr > th.sorting_disabled", "css"],
+        ["css=#tabelaSecretario .sorting_disabled", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/thead/tr/th[6]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/table/thead/tr/th[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd920cb7-47df-4345-b394-7cc28e61745e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_paginate .active > .page-link",
+      "targets": [
+        ["css=#tabelaSecretario_paginate .active > .page-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'1')])[3]", "xpath:link"],
+        ["xpath=//div[@id='tabelaSecretario_paginate']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div[3]/div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52227992-04e4-4717-8d43-5c5739e73e48",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "249510aa-4d53-4966-a14a-530c8154422d",
+      "comment": "",
+      "command": "select",
+      "target": "name=tabelaSecretario_length",
+      "targets": [],
+      "value": "label=25"
+    }, {
+      "id": "da01cea5-d3ac-4b6f-9713-04ffe6476a49",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ae86120-6a7b-4fa4-af78-bcd274ae7e8a",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561c96ea-7484-4e88-bbb9-57ead98f0743",
+      "comment": "",
+      "command": "select",
+      "target": "name=tabelaSecretario_length",
+      "targets": [],
+      "value": "label=50"
+    }, {
+      "id": "c4e40ed2-648c-489a-b06c-5cd5ac34dc7b",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5e0e48-9944-484a-8bc9-4f70ba4725b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b97f591-47f4-4330-9756-b4cff1351e53",
+      "comment": "",
+      "command": "select",
+      "target": "name=tabelaSecretario_length",
+      "targets": [],
+      "value": "label=100"
+    }, {
+      "id": "2c46bf59-39aa-41d8-a29f-44434a0a028e",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaSecretario_length",
+      "targets": [
+        ["name=tabelaSecretario_length", "name"],
+        ["css=select[name=\"tabelaSecretario_length\"]", "css"],
+        ["css=#tabelaSecretario_length .custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaSecretario_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_length']/label/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5385a36a-dc5e-44d7-9578-0c92c02fba8a",
+    "name": "BuscaReuniaoFalse",
+    "commands": [{
+      "id": "369b7724-c0da-46fd-8961-99a4e7f81957",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5200b752-408d-4f45-aca7-0eb932e6f17e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x641",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6635a4b8-51ae-49cb-b0b9-94a8c76f7867",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c520323-f01f-443f-9e51-1a8960ce58d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce8d7d3-0739-4550-90b2-bc86244792f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "89afee0d-fa4e-4838-96ea-ba63ae521af8",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c9dda9-84f3-4da2-a367-6ed37a724a52",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "3b00f518-c61e-4b92-85f1-42206d37de7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c8e65d-21f6-4a71-a691-0e52bd888248",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e68f426-a6dd-4e60-b8a0-8da022b0b0cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20f78fe-6096-485d-96dd-060582b0e116",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ddeef16e-b54b-4f28-8ada-8394d5213fa4",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da263441-f053-43d4-88da-a99022810277",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testeinvalida"
+    }, {
+      "id": "e515cc04-c5c4-45b7-819b-1ccf59448693",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "78b0c55c-c0d2-419d-9584-a4fbd665dd64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar",
+      "targets": [
+        ["linkText=Entrar", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaMembro .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaMembro']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/entrar/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e9932dc7-e1d3-46f4-b970-6c6b95f09cc0",
+    "name": "ModeradorBuscaReuniao",
+    "commands": [{
+      "id": "4a9b402c-20c9-4dc3-a313-97e0a28eaa01",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b306138a-bc64-439a-b56b-ca8f46f735b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "872x948",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e351e9ca-b851-4ef9-84dc-099731f6aec9",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3aaee8-af8c-4e46-9b94-7682c7170af2",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "f2185629-f64b-48e9-82e8-448e6a68c79d",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "877e3c8d-02e0-4f99-b201-11ea22c3182a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "59a1fc8e-2f25-47bd-a3bc-d6d74d891abf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moderar",
+      "targets": [
+        ["linkText=Moderar", "linkText"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8edbd2be-a2a2-455c-8256-c865fbba6989",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e9452b-1aaa-45b4-8747-a5dd3316cc15",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "reuniao"
+    }, {
+      "id": "8bc70ba1-fc18-4463-b45e-527bbd48de43",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabelaItensPauta_previous",
+      "targets": [
+        ["id=tabelaItensPauta_previous", "id"],
+        ["css=#tabelaItensPauta_previous", "css"],
+        ["css=#tabelaItensPauta_previous", "css:finder"],
+        ["xpath=//li[@id='tabelaItensPauta_previous']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_paginate']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66089d99-0c56-466c-aac6-9bbd5c514d53",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabelaItensPauta_next",
+      "targets": [
+        ["id=tabelaItensPauta_next", "id"],
+        ["css=#tabelaItensPauta_next", "css"],
+        ["css=#tabelaItensPauta_next", "css:finder"],
+        ["xpath=//li[@id='tabelaItensPauta_next']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_paginate']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5417d34-fa08-4637-8250-5d20efdef4f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [
+        ["name=tabelaItensPauta_length", "name"],
+        ["css=select[name=\"tabelaItensPauta_length\"]", "css"],
+        ["css=.custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaItensPauta_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_length']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18bc8003-5119-486f-ae1e-097f06914755",
+      "comment": "",
+      "command": "select",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [],
+      "value": "label=100"
+    }, {
+      "id": "f4e92fd2-761c-4a56-95a2-f0709b8153ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=tabelaItensPauta_length",
+      "targets": [
+        ["name=tabelaItensPauta_length", "name"],
+        ["css=select[name=\"tabelaItensPauta_length\"]", "css"],
+        ["css=.custom-select", "css:finder"],
+        ["xpath=//select[@name='tabelaItensPauta_length']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_length']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa804f2c-2727-4812-9090-44b87e966dcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aff25a3a-d514-4ede-9638-a68990ff2597",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "741989c1-d054-4859-8a29-5090955d95ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f264181-c38e-46e1-984d-0465f48dad2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4f8cff7-8178-46d6-bf37-107eae28585d",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1356a78-d308-4c43-93ed-1756b253083a",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.navbar-toggler-icon",
+      "targets": [
+        ["css=span.navbar-toggler-icon", "css"],
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6b15b8-ae46-4d14-9967-f33e6378ef6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba51bdef-4cb5-42c6-8b18-6bd625c22484",
+    "name": "Resposividade",
+    "commands": [{
+      "id": "f191ee41-8253-4385-bf7f-1b92d03c8d60",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e6ca991-ec9b-470a-924f-75718ec7aecb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "872x948",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27762034-fe49-4b77-b551-999dc0f7c98f",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32fcc18e-fe81-47f2-8c34-578a1e747354",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "405c3e8b-83a9-4995-90bf-5eed71af0f6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "02c17c23-54dc-4e5d-9bce-1e08f6dddd86",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5f62c2-2ed7-404e-89dc-76db61402779",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.fas.fa-external-link-alt",
+      "targets": [
+        ["css=i.fas.fa-external-link-alt", "css"],
+        ["css=.odd .fa-external-link-alt", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/tbody/tr/td[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37a5b243-c12c-4cbc-9567-e2cdbfced2ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.fas.fa-sign-in-alt",
+      "targets": [
+        ["css=i.fas.fa-sign-in-alt", "css"],
+        ["css=.fa-sign-in-alt", "css:finder"],
+        ["xpath=//table[@id='tabelaMembro']/tbody/tr/td[6]/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab317196-f28e-4aae-a881-26bfd36ed6b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .fas",
+      "targets": [
+        ["css=.btn > .fas", "css:finder"],
+        ["xpath=//div[@id='reuniao']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4ac366f-d56b-4128-99b2-938743031f69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ad5cc27e-4109-4787-bbdb-c105c57fff1c",
+    "name": "BuscaDataComissaoTipo",
+    "commands": [{
+      "id": "98802c90-610b-403c-b364-904545b94d83",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fbedff5-015d-43c7-ac3f-860f423a9995",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04335a0c-6d7e-456e-8a5b-cb276ceb8a35",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ac0514-b80d-4a29-8068-d8945997e2e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e9c6aa2-42ac-41af-aa75-597068d4219f",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "31/10"
+    }, {
+      "id": "5b377d2b-c7f5-4fc5-9694-2b9cf8a24296",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b510ff21-feaa-46bc-bd1b-dc11f60f1b5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab0edcde-19e6-4926-9f81-81730013385c",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "20:30:00"
+    }, {
+      "id": "a1d97d49-eaed-410b-b759-df52bb96c67a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5c8ab576-ddcb-4e0a-b193-e3f383e19dd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6d8767-e247-4532-9a73-bdbfca90ff21",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "Aberta"
+    }, {
+      "id": "91cb0bf4-239e-4e5c-b9c8-2d5cf7d7dd66",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b7663825-e758-492c-ae8e-ea737a188eb9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,355)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0b341dd-d05a-44a1-8770-ce6ea90ad7a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb3b183-733f-4c46-8989-f6a964dfcddc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48939539-7b5b-4540-995e-eaf1961fabbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e916120-af8f-4464-829c-7323630fb163",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2ª reuniao"
+    }, {
+      "id": "43865d8d-e34a-4500-a285-f35f4adf6c8b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "844ea0c1-df4a-490b-8657-525a7e823fa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f16a8017-85ab-4842-8b27-74484a7074ca",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "Reuniao Mensal"
+    }, {
+      "id": "115f407f-36f8-48a5-9cbd-699ce8a445d3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaModerador_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaModerador_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "67c1e776-218e-494b-9871-0b31bb496a92",
+    "name": "VerificaReuniao",
+    "commands": [{
+      "id": "589073e9-fdd9-4e35-86d2-d4384eb71a53",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35889016-b3ed-4a6e-a295-cfe028128917",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dc3139c-b716-4f1f-af11-54062f981848",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a10da1-80a3-4d24-b871-ba2b92b1cea5",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "3427e092-f779-4640-98f8-b8237c705ff2",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12345."
+    }, {
+      "id": "b388fe00-76ee-4054-9f9c-5b384c96b838",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "791f1613-32e4-46fe-b88c-92c71ae6b3c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8fd874b-f1b5-4f09-8cde-4d493bcbbcf7",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "cf4edd86-563a-4ebc-b786-91e0688fbd4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb1eb8f1-2ec4-409d-8879-00c5ffeb7296",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "693adc65-c4dd-4acb-af00-bc523c5139b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form.form-signin",
+      "targets": [
+        ["css=form.form-signin", "css"],
+        ["css=.form-signin", "css:finder"],
+        ["xpath=//form[@action='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logar']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3455bf6-bb48-4c23-9332-e94d58b35998",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a34e52e-e635-4913-a099-92b6c4e6b2dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a5ba12-d525-4e7d-86e7-392345ceff3b",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1ª"
+    }, {
+      "id": "52c0d01a-afd6-4430-8f8d-f7f4fc121891",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaMembro_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaMembro_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8fbe12ad-e05c-4bc3-8b5a-2bfa53331b8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Entrar",
+      "targets": [
+        ["linkText=Entrar", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaMembro .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaMembro']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/entrar/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e43600f3-d4e5-4f4e-95a8-e61073e2170a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .fas",
+      "targets": [
+        ["css=.btn > .fas", "css:finder"],
+        ["xpath=//div[@id='reuniao']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d6f70c-1b10-4150-a126-f1c47006ff29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Abrir",
+      "targets": [
+        ["linkText=Abrir", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaba7dd0-1892-4675-9647-0b4a5e07a4a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaItensPauta_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaItensPauta_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d77877-78ef-45a8-b762-deda7b1e9390",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.card-header",
+      "targets": [
+        ["css=div.card-header", "css"],
+        ["css=.card-header", "css:finder"],
+        ["xpath=//div[@id='itensPauta']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adcf1e44-4211-4bbb-9aac-a22cb1283204",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/2']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dada8c5a-e2d1-4193-8d28-124899e883a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador .even .btn",
+      "targets": [
+        ["css=#tabelaModerador .even .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr[2]/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/6']", "xpath:href"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee60c8de-fedc-4b75-bbb9-e085f012f641",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/6']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6967b5-4649-4c9b-936a-79c2659d327c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_wrapper > .row:nth-child(2) > .col-sm-12",
+      "targets": [
+        ["css=#tabelaSecretario_wrapper > .row:nth-child(2) > .col-sm-12", "css:finder"],
+        ["xpath=//div[@id='tabelaSecretario_wrapper']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26ed202e-43e4-42ed-b460-d8016b79e832",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "867fc741-a4ae-4585-9651-d88ff9a00c25",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "Fechada"
+    }, {
+      "id": "e0af26c7-df75-4e04-8662-f11934f76cb8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "24e6db3d-a7e9-4c1a-b5f1-5b7109e99f74",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario > tbody > tr.even > td",
+      "targets": [
+        ["css=#tabelaSecretario > tbody > tr.even > td", "css"],
+        ["css=#tabelaSecretario .even > td:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='tabelaSecretario']/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]/div/table/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb991ae4-5256-4c95-9cb7-f28301c3f164",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5ff23a2-8f06-4136-ba04-15121cf54f18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4c9aac8e-b78e-4277-997a-1c6186776053",
+    "name": "CaminhoCompleto",
+    "commands": [{
+      "id": "19e60a5f-c4cc-4831-90ce-5e51e4abbffe",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8cbfe02-fea3-4feb-9a22-9d5581ff8596",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65eba09a-57a5-4386-820c-f71dfbb09a8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ff123b-db4d-40fe-8e39-f23a0e6fb78b",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa5b5e66-71f9-4b9d-90cd-15567a1a4112",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "b2838cff-bb87-4ec7-a884-0e04a0e327b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "6ae707ac-be6e-4d28-a217-f3960556ec19",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4de1cf59-babd-4a7b-a64f-074115ca85af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Abrir",
+      "targets": [
+        ["linkText=Abrir", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dae6192-8ec5-4cd1-9f78-1092ae25aa54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/2']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f09d0dce-1931-4879-ba08-8a54b46fa4d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d13dfaf-2b2a-4255-b770-98a8f6bf96b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Abrir",
+      "targets": [
+        ["linkText=Abrir", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "618f3dff-2493-4425-a7ad-47d64c80f8e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/2']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b7f5f3-9cbc-452c-8dae-54e893532cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaModerador .even .btn",
+      "targets": [
+        ["css=#tabelaModerador .even .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr[2]/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/6']", "xpath:href"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d4eed6a-246c-41ff-8c60-94e53cd3c089",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/6']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebbbdc3c-f256-4170-a4e6-ac44a455c814",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aedae06c-c0d1-43c7-ab28-a27e36eeb421",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "112ab87d-a276-4dca-ac20-0ac59a6c17c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8eea852-3f0c-4699-88e9-48d7f0aa9055",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de9fe2de-d8e5-4ced-a07e-74f00eea6f6b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "371f969e-832c-4fa9-a0bd-6da175cb0604",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputEmail1",
+      "targets": [
+        ["id=exampleInputEmail1", "id"],
+        ["name=usuario", "name"],
+        ["css=#exampleInputEmail1", "css"],
+        ["css=#exampleInputEmail1", "css:finder"],
+        ["xpath=//input[@id='exampleInputEmail1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "filipe1997@gmail.com"
+    }, {
+      "id": "8afe8793-7751-4f53-a379-128a6d9c48d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d878aaa-ecbc-4821-a7e8-b0626315ab9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "a71b0d72-8637-4943-b49d-2701f712338a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=exampleInputPassword1",
+      "targets": [
+        ["id=exampleInputPassword1", "id"],
+        ["name=senha", "name"],
+        ["css=#exampleInputPassword1", "css"],
+        ["css=#exampleInputPassword1", "css:finder"],
+        ["xpath=//input[@id='exampleInputPassword1']", "xpath:attributes"],
+        ["xpath=//div[@id='areaLogin']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "37d8722b-431b-40c5-96e5-d706fdbb3042",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Abrir",
+      "targets": [
+        ["linkText=Abrir", "linkText"],
+        ["css=a.btn.btn-success", "css"],
+        ["css=#tabelaModerador .odd .btn", "css:finder"],
+        ["xpath=//table[@id='tabelaModerador']/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/abrir/2']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c40bc3fe-c7a7-4837-af62-5abfe7d62939",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fechar",
+      "targets": [
+        ["linkText=Fechar", "linkText"],
+        ["css=a.btn.btn-danger", "css"],
+        ["css=.btn-danger:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Fechar')]", "xpath:link"],
+        ["xpath=//div[@id='itensPauta']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/reunioes/fechar/2']", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0327b83-ab19-49cd-bdbe-9a5b5aabae8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.form-control.form-control-sm",
+      "targets": [
+        ["css=input.form-control.form-control-sm", "css"],
+        ["css=#tabelaModerador_filter .form-control", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaModerador_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17c30e73-d631-410e-b967-3d267b906ce3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06be0b3b-5c25-474c-a37e-c8d9c364dfa3",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "Reunião Extraordinaria da"
+    }, {
+      "id": "ce460829-51b9-44f0-a3c1-80e841ce021b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "61dfd9b1-6d6c-4c27-b333-0cc8d23de685",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3721d82c-5880-4f09-8a6a-ea6c80c98dfb",
+      "comment": "",
+      "command": "type",
+      "target": "css=#tabelaSecretario_filter > label > input.form-control.form-control-sm",
+      "targets": [
+        ["css=#tabelaSecretario_filter > label > input.form-control.form-control-sm", "css"],
+        ["css=#tabelaSecretario_filter .form-control", "css:finder"],
+        ["xpath=(//input[@type='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='tabelaSecretario_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac5f066-6057-44c1-9200-02778067545b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": "49.828125,29"
+    }, {
+      "id": "ed830caa-8952-4b21-a245-4f2ea36ddb0c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": "49.828125,29"
+    }, {
+      "id": "2f8e7c38-75f5-44b0-a675-b8e4e1d331b4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": "49.828125,29"
+    }, {
+      "id": "5ec3666d-5eec-4e85-a6af-3b13c4d5d9de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a.nav-link", "css"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login/logout/']", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "39a0bdf7-62c7-4d5f-96ef-8429629d11ec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed3c4ae4-dd83-4189-9ced-c7f71ec4c46f"]
+  }],
+  "urls": ["http://localhost/rpvi_gerencia_grupo02/webVotoCodeIgniter/login"],
+  "plugins": []
+}

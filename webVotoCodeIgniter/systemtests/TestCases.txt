@@ -1,0 +1,16 @@
+Esse arquivo irá relatar os testes conduzidos, bem como seus detalhes (Testes Positivos e Negativos, Testes que passaram e não passaram)
+
+Testes Unitários:
+
+Testes Positivos:1
+Testes Negativos:0
+Testes que Passaram:1
+Testes que Não Passaram:0
+
+
+Testes Selenium:
+
+Testes Positivos:8
+Testes Negativos:2
+Testes que Passaram: 8
+Testes que Não Passaram:2
