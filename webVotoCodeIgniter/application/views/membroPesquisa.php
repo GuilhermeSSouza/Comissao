@@ -68,7 +68,7 @@
             </div>
             <br>
             <div class="table-responsive">
-                <table id="tabelaComissao" class="table">
+                <table id="tabelaPesquisa" class="table">
                     <thead>
                     <tr>
                         <th scope="col">Nome</th>
@@ -89,14 +89,6 @@
                                 <a class="btn btn-success" href="<?= base_url('comissaopessoa/vizualizar/' . $r->getId()); ?>">
                                     <i class="fas fa-eye"></i> Membros
                                 </a>
-                                <a class="btn btn-warning" href="<?= base_url('comissaopessoa/vizualizar/' . $r->getId()); ?>">
-                                    <i class="fas fa-edit"></i> Editar
-                                </a>
-                                <a class="btn btn-danger" href="<?= base_url('comissaopessoa/vizualizar/' . $r->getId()); ?>">
-                                    <i class="fas fa-trash"></i> Deletar
-                                </a>
-
-
                             </td>
                         </tr>
                     <?php } ?>
@@ -112,7 +104,23 @@
 
 
 <script type="text/javascript">
-     let table = $('#tabelaComissao').DataTable();
+     let table = $('#tabelaPesquisa').DataTable(
+         {
+        dom: 'Bfrtip',
+        buttons: [
+            {
+                extend: 'pdfHtml5',
+                exportOptions: {
+                    columns: ':visible'
+                }
+            },
+            'colvis'
+        ],
+        columnDefs: [ {
+            targets: 0,
+            visible: true
+        } ]
+    } );
 </script>
 
 

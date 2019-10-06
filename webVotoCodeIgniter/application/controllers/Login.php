@@ -5,6 +5,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Login extends CI_Controller {
 
 
+
+	public function verificaSession(){
+		if (!$this->session->userdata('logged_in')) {
+			redirect(base_url());
+		}
+	}
+
+
 	public function index() {
 
 		if($this->session->logged_in){
@@ -17,19 +25,20 @@ class Login extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function verificaSession(){
-		if (!$this->session->userdata('logged_in')) {
-			redirect(base_url());
-		}
-	}
-
+	
 	public function home(){
 
-		$this->load->model('LoginModel');
 		$this->verificaSession();
+		$this->load->model('LoginModel');
+		
 
 		$comissao = $this->LoginModel->getComissao();
 		$data['comissao'] = $comissao['dadoscomissao'];
+		$data['erro']= null;
+		$data['sucesso']= null;
+
+		$comissaoinativa = $this->LoginModel->getComissaoInativa();
+		$data['inativa'] = $comissaoinativa['dadoscomissao'];
 
 		$this->load->view('templates/header');
 		$this->load->view('templates/menu');
@@ -40,23 +49,7 @@ class Login extends CI_Controller {
 
 
 	}
-	// public function home(){
-	// 	$this->load->model('LoginModel');
-	// 	$this->verificaSession();
-
-	// 	$reunioes = $this->LoginModel->getReunioes($this->session->id);
-
-	// 	$data['moderador'] = $reunioes["moderador"];
-	// 	$data['membro'] = $reunioes["membro"];
-	// 	$data['secretario'] = $reunioes["secretario"];
-
-	// 	$this->load->view('templates/header');
-	// 	$this->load->view('templates/menu');
-	// 	$this->load->view('dashboard', $data);
-	// 	$this->load->view('templates/footer');
-
-	// }
-
+	
 	public function logar() {
 		$this->output->set_header('Cache-Control: no-cache, must-revalidate');
 		$this->load->model('LoginModel');

@@ -6,6 +6,8 @@ class Comissao {
     private $date;
     private $descricao;
     private $horas;
+    private $datafim;
+    private $ativa;
 
 	/**
 	 * Comissao constructor.
@@ -14,6 +16,21 @@ class Comissao {
 	}
 
 
+    public function getAtiva(){
+        return $this->ativa;
+    }
+
+    public function setAtiva($ativa){
+        $this->ativa= $ativa;        
+    }
+
+    public function getDatefim(){
+        return $this->datafim;
+    }
+
+    public function setDatafim($datafim){
+        $this->datafim = $datafim;
+    }
 
 
     public function getHoras(){
